@@ -1,0 +1,11 @@
+let limit = 5
+let counter = 0
+
+while counter < limit {
+    counter = counter + 1
+    if counter == 3 {
+        print 999
+    } else {
+        print counter
+    }
+}

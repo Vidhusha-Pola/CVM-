@@ -1,0 +1,12 @@
+let age = 18
+let required = 21
+
+if age < required {
+    print 0 
+} else {
+    print 1
+}
+
+if age == 18 {
+    print 99
+}
