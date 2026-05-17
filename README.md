@@ -33,9 +33,12 @@ mkdir build
 cd build
 cmake .. -G "MinGW Makefiles"
 cmake --build .
-
-2. Compile to Bytecode
+```
+**2. Compile to Bytecode:**
+```bash
 .\cvm.exe compile ../examples/04_factorial.cvm factorial.bin
-
-3. Execute on the VM
+```
+**3. Execute on the VM:**
+```bash
 .\cvm.exe run factorial.bin
+
